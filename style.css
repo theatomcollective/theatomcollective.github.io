@@ -1,4 +1,4 @@
-.fbookIcon, .soundcloudIcon, .instagramIcon {
+#fbookIcon, #soundcloudIcon, #instagramIcon {
 	display: block;
 	width: 20px;
 	height: 20px;
