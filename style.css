@@ -1,5 +1,11 @@
 #fbookIcon, #soundcloudIcon, #instagramIcon {
-	display: block;
+	display: in-line;
 	width: 20px;
+	height: 20px;
+}
+
+#socialMediaLinks {
+	display: block;
+	width: 100%;
 	height: 20px;
 }
