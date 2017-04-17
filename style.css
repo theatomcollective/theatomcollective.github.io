@@ -8,3 +8,7 @@ p {
   text-align: center;
   text-transform: uppercase;
 }
+
+div {
+  border-style: solid;
+}
