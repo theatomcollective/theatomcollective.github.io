@@ -1,11 +1,30 @@
 #fbookIcon, #soundcloudIcon, #instagramIcon {
-	display: in-line;
+	display: inline-block;
 	width: 20px;
 	height: 20px;
 }
+
+#main {
+	display: block;
+	width: 100%;
+	height: 20px;
+}
+
+
+#email {
+	display: block;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+}
+
 
 #socialMediaLinks {
 	display: block;
 	width: 100%;
 	height: 20px;
+}
+
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
