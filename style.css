@@ -9,6 +9,15 @@ p {
   text-transform: uppercase;
 }
 
-.test {
+#main {
   border-style: solid;
 }
+
+#email {
+  border-style: solid;
+}
+
+#socialMediaLinks {
+  border-style: solid;
+}
+
