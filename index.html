@@ -3,12 +3,12 @@
 	<head>
 		<title>ATOM</title>
 		<style>
-			.test {
-				border-style: solid;
-			}
-
 			#main {
   				border-style: solid;
+				position:absolute;
+    				width:100%;
+    				height:100%;
+    				text-align: center;
 			}
 
 			#email {
@@ -18,6 +18,7 @@
 
 			#socialMediaLinks {
   				border-style: solid;
+				width: 100%;
 			}
 
 			#fbookIcon, #instagramIcon, #soundcloudIcon {
@@ -25,14 +26,22 @@
 				display: inline;
 				height: 60%;
 			}
+
+			.Centerer {
+    				display: inline-block;
+    				height: 100%;
+    				vertical-align: middle;
+			}
+
+			#logo {
+    				display: inline-block;
+    				vertical-align: middle;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="test">
-			<p>hello</p>
-		</div>
-
 		<div id="main">
+			<span class="Centerer"></span>
 			<img id="logo" src="ATOMsignature.png">
 		</div>
 		
